@@ -1,0 +1,55 @@
+
+.task-management {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-management input {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
+    border: 1px solid #ddd;
+  }
+  
+  .task-management select {
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid #ddd;
+  }
+  
+  .task-management button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+  }
+  
+  .task-management button:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .tasks-list {
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-item button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+  }
+  
